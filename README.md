@@ -1,16 +1,41 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Initialized React project using create-react-app
 
-Currently, two official plugins are available:
+Added basic project folder structure and installed dependencies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Created Redux store and configured Provider in index.js
 
-## React Compiler
+Added cartSlice with add, remove, increase, and decrease actions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Implemented Cart component with product listing
 
-## Expanding the ESLint configuration
+Styled Cart component with Cart.css
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Added quantity control buttons and remove item feature
+
+Calculated total cart amount dynamically
+
+Created Checkout component and route setup
+
+Added dummy checkout form with name, email, and address fields
+
+Displayed order summary of items in Checkout page
+
+Implemented “Place Order” button functionality
+
+Cleared Redux cart after placing order
+
+Added redirect to home page after order placement
+
+Displayed order success message with countdown timer
+
+Improved form validation and user feedback alerts
+
+Styled Checkout page with responsive design (Checkout.css)
+
+Added navigation links between ProductList, Cart, and Checkout
+
+Removed node_modules and added .gitignore
+
+Final cleanup and added comments for clarity and readability
